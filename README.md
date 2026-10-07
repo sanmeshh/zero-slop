@@ -9,7 +9,7 @@ Unlike standard LLMs (System 2 thinking) that generate text word-by-word with hi
 ##  Key Features
 
 * **Laya, Non-Autoregressive Decision Engine:** Evaluates text in a single forward pass without token-by-token generation.
-* **Calibrated Thresholding:** Tuned binary decision boundaries (`p >= 0.48`) optimized for zero-shot classification on local CUDA GPUs.
+* **Calibrated Thresholding:** Tuned binary decision boundaries (`p >= 0.5`) optimized for zero-shot classification on local CUDA GPUs.
 * **FastAPI Backend:** Asynchronous Python backend designed for low-latency inference calls.
 * **Streamlit UI:** Clean, simple frontend for testing post content and inspecting real-time confidence metrics.
 
